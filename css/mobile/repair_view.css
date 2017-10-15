@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+:root{
+    --header_color:rgba(114, 114, 114, 0.65);
+    --header_text_color:#000000;
+}
+
+body{
+    font-family:  'Noto Sans TC', sans-serif;
+}
+
+#ui-header{
+    padding: 1%;
+    text-align: center;
+    background-color: var(--header_color);
+    color: var(--header_text_color);
+}
+#ui-content{
+    padding: 2.5%;
+
+}
+#footer{
+    padding: 1%;
+    text-align: center;
+    background-color: var(--header_color);
+    color: var(--header_text_color);
+}

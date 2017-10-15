@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@media screen and (min-width:240px) and (max-width:768px)  {
+  body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-image: url('../images/mobile_bg.jpg');
+    background-size: 100% auto;
+  }
+  .navbar-default{
+    background-color: #E8E8E8;
+  }
+  footer{
+      color: #FFE1FF;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1920px) {
+  body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-image: url('../images/usr_bg.jpg');
+    background-size: 100% auto;
+  }
+  footer{
+    color: #FFE1FF;
+  }
+}

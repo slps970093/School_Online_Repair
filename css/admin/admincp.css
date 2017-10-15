@@ -1,0 +1,10 @@
+.main{
+    width: 70%;
+    background-color: rgba(152,245,255,0.9);
+    border-radius: 5px;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -35%;
+    padding: 35px;
+}

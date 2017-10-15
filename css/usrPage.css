@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@media screen and (min-width:240px) and (max-width:768px)  {
+  body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-image: url('../images/mobile_bg.jpg');
+    background-size: cover;
+  }
+  .navbar-default{
+    background-color: #E8E8E8;
+  }
+  footer{
+      color: #FFE1FF;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1920px) {
+  body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-image: url('../images/usr_bg.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  footer{
+    color: #FFE1FF;
+  }
+}
+
+footer{
+  text-align:center;
+}
+header{
+  text-align:center;
+}
+.form-page{
+  background-color: rgba(255,250,250,0.5);
+  padding: 30px 30px 30px 30px;
+  border-radius:30px;
+}
+.repair-info{
+  background-color: rgba(245,245,245,0.4);
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px;
+}
